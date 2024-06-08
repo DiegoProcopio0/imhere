@@ -14,39 +14,36 @@ import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { Participant } from "@/components/Participant";
+import { useState } from "react";
 
 export default function HomeScreenHomeScreen() {
-  const participantes: string[] = [
-    "Diego",
-    "João",
-    "Rodrigo",
-    "Moa",
-    "Bryan",
-    "Vini",
-    "Neymar",
-    "Biro",
-    "Ana",
-    "Bia",
-    "Sophia",
-    "Gabriela",
-    "DJ",
-  ];
+  const [participantes, setParticipantes] = useState<string[]>([]);
+  const [participanteNane, setParticipanteNane] = useState("");
 
   function handlerParticipantAdd() {
-    if (participantes.includes("DJ")) {
+    if (participanteNane.includes("")) {
+      return Alert.alert("Digite um nome para cadastrar!");
+    }
+
+    if (participantes.includes(participanteNane)) {
       return Alert.alert(
         "Participante já existe",
         "Participante já existe na lista do evento"
       );
     }
 
-    console.log("add");
+    setParticipantes((prevState) => [...prevState, participanteNane]);
+    setParticipanteNane("");
   }
+
   function handlerParticipantRemove(name: string) {
     return Alert.alert("Remover", `Deseja remover o participante ${name} ?`, [
       {
         text: "Sim",
-        onPress: () => participantes.splice(participantes.indexOf(name), 1),
+        onPress: () =>
+          setParticipantes(
+            participantes.filter((participante) => participante != name)
+          ),
       },
       {
         text: "Não",
@@ -82,6 +79,8 @@ export default function HomeScreenHomeScreen() {
           style={styles.input}
           placeholder="Nome do participante"
           placeholderTextColor="#6b6b6b"
+          onChangeText={setParticipanteNane}
+          value={participanteNane}
         />
         <TouchableOpacity style={styles.button} onPress={handlerParticipantAdd}>
           <Text style={styles.buttonText}>+</Text>
