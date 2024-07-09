@@ -52,7 +52,7 @@ npm start
 ### App images
 
 <div align="center">
-  <img align="center" src="https://i.ibb.co/PGF5LF6/imhere.jpg" alt="imagem" border="0" width="500px">
+  <img align="center" src="https://i.ibb.co/PGF5LF6/imhere.jpg" alt="imagem" border="0"  height="500px">
 </div>
 
 </br>
