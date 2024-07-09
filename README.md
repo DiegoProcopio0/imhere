@@ -11,7 +11,7 @@
 [Styled Components_BADGE]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
 [Styled Components__url]: https://styled-components.com/
 
-<h1 align="center" style="font-weight: bold;">API REACT NATIVE 💻</h1>
+<h1 align="center" style="font-weight: bold;">APP REACT NATIVE 💻</h1>
 
 <p align="center">
     <b>App para estudar react native.</b>
