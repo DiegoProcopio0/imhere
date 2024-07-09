@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+[ESlint.js]: https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white
+[ESlint-url]: https://eslint.org/
+[Typescript.js]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript-url]: https://www.typescriptlang.org
+[Git_BADGE]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
+[Git__url]: https://git-scm.com/
+[React Native_BADGE]: https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[React Native__url]: https://reactnative.dev/
+[Expo_BADGE]: https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37
+[Expo__url]: https://expo.dev/
+[Styled Components_BADGE]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
+[Styled Components__url]: https://styled-components.com/
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<h1 align="center" style="font-weight: bold;">API REACT NATIVE 💻</h1>
 
-## Get started
+<p align="center">
+    <b>App para estudar react native.</b>
+</p>
 
-1. Install dependencies
+<h2 id="tech">💻 Tecnologias</h2>
 
-   ```bash
-   npm install
-   ```
+- [![TypeScript][Typescript.js]][Typescript-url]
+- [![EsLint][Eslint.js]][Eslint-url]
+- [![Git][Git_BADGE]][Git__url]
+- [![React Native][React Native_BADGE]][React Native__url]
+- [![Expo][Expo_BADGE]][Expo__url]
+- [![Styled Components][Styled Components_BADGE]][Styled Components__url]
 
-2. Start the app
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-   ```bash
-    npx expo start
-   ```
+<h2 id="started">🚀 Começando</h2>
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+<h3>Clone o repositório</h3>
 
 ```bash
-npm run reset-project
+  git clone https://github.com/DiegoProcopio0/imhere.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+<h3>Instalação das dependências</h3>
 
-## Learn more
+```bash
+npm i
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+<h3>Executar servidor em modo de desenvolvimento</h3>
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm start
+```
+</br>
 
-## Join the community
+### App images
 
-Join our community of developers creating universal apps.
+<div align="center">
+  <img align="center" src="https://i.ibb.co/PGF5LF6/imhere.jpg" alt="imagem" border="0" width="500px">
+</div>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+</br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
